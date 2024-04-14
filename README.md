@@ -122,7 +122,11 @@ Instructions from dynamic Funges run with the same stack as the IP that called t
 
 `TERM` [Terminal extension](http://www.rcfunge98.com/rcfunge2_manual.html#TERM).
 
+`TIME` [Time and Date functions](http://www.rcfunge98.com/rcfunge2_manual.html#TIME).
+
 `TOYS` [Standard Toys](https://github.com/catseye/Funge-98/blob/master/library/TOYS.markdown).
+
+`TRDS`[IP travel in time and space](http://www.rcfunge98.com/rcfunge2_manual.html#TRDS), backward time travel not supported.
 
 ## Debugger
 The Funge++ debugger, known as defunge, can be run on any Befunge program by specifying the `-g` command line argument.

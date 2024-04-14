@@ -32,6 +32,7 @@
 #include "FingerprintREFC.h"
 #include "FingerprintSTRN.h"
 #include "FingerprintSUBR.h"
+#include "FingerprintTIME.h"
 #include "FingerprintTOYS.h"
 #include "FingerprintTRDS.h"
 #include "FungeUniverse.h"
@@ -91,6 +92,7 @@ Fingerprint* FingerprintStrategy::loadBuiltin(uint64_t fingerprint){
 		case 0x52454643: fing = new FingerprintREFC(runner); break;
 		case 0x5354524E: fing = new FingerprintSTRN(runner); break;
 		case 0x53554252: fing = new FingerprintSUBR(runner); break;
+		case 0x54494D45: fing = new FingerprintTIME(runner); break;
 		case 0x544F5953: fing = new FingerprintTOYS(runner); break;
 		case 0x54524453: fing = new FingerprintTRDS(runner); break;
 		case FingerprintDynamic::ID:
